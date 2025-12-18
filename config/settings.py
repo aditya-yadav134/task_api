@@ -8,7 +8,7 @@ load_dotenv() # This loads variables from .env into os.environ
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Securing Secret key in '.env' file
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = os.getenv('SECRET_KEY', "9@tZ#pX8m^L2!wQh7&kVbFz3$uR1eY")
 
 DEBUG = False
 
