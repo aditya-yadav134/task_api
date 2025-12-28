@@ -118,7 +118,14 @@
              } 
         ```
   
-  ##    List of all main API endpoints
+  ## Setting up in Docker 
+    ### Pull the image
+        docker pull adityayadav134/task_api:1.0
+    
+    ### Run container using Docker Compose
+        docker compose -f compose.yaml up -d
+        
+  ## List of all main API endpoints
   
   ### 1.  Authentication: <br>
     
