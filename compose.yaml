@@ -1,0 +1,7 @@
+services:
+  task_app:
+    image:
+      adityayadav134/task_api:1.0
+    ports:
+      - 8000:8000
+
